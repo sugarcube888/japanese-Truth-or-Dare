@@ -1,0 +1,85 @@
+:root {--bs-body-bg: transparent};
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: rgb(182, 0, 0);
+    padding: 10px 10px 50px 10px;
+}
+/*body {}*/
+.top-bottom-flex {
+    display: flex;
+    flex-direction: column;
+    background-color: initial;
+    gap: 10px;
+}
+.five-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cat-column {
+    width: Calc(100% / 5 - 9px);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+}
+h1, h2, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, .top p {
+    margin-bottom: 8px;
+}
+h1 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.top {
+    background-color: #ededed;
+    border-radius: 5px;
+    padding: 10px;
+}
+.top-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+h2 {
+    border-top: solid 1px gray;
+    margin-top: 15px;
+}
+.bottom p {
+    margin: 0;
+}
+.card {
+    padding: 10px;
+    height: 68px;
+    background-color: #efefef;
+    overflow: scroll;
+    transition: opacity 0.3s ease-in-out;
+}
+h3 {
+    background: -webkit-linear-gradient(#ffffff, rgb(170, 254, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.shot {
+    height: 42px;
+    background-color: lightblue;
+}
+.yellow {
+    background-color: yellow;
+}
+.group {
+    border-width: 1.75px;
+    border-color: green;
+    background: lightgreen;
+}
